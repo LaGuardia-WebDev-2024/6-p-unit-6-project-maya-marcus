@@ -7,13 +7,22 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
+  fill(255,255,255, 0);
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
 
+  ellipse(200,150,375,400); //head
+  line(192,172,197,354);
+  line(160,7,159,143);
+  line(157,139,130,170);
+  line(132,170,230,167);
+  line(207,10,202,135);
+  line(201,135,230,165);
   
+
+
 
 }
 
