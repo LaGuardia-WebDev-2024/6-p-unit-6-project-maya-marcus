@@ -12,8 +12,12 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-
+fill(197,250,179);
   ellipse(200,150,375,400); //head
+
+  fill(105,193,235);
+  arc(200,150,375,400,radians(270), radians(450)); //1/2 head
+
   line(192,172,197,354);//nose
   line(160,7,159,143);//nose
   line(157,139,130,170);//nose
@@ -22,9 +26,11 @@ void draw(){
   line(201,135,230,165);//nose
   ellipse(193,262,150,90);//lips
   line(116,259,265,263);//lips
+  fill(230,225,87);
   ellipse(87,72,90,73);//left  outer eye
   ellipse(83,68,40,40);//left inner eye
   ellipse(272,71,90,73); //right outer eye
+  fill(0,44,242);
   ellipse(270,69,40,40); //right inner eye
   rect(0,350,400,100); //ground
 
@@ -40,11 +46,19 @@ void draw(){
  fill(0,44,242);
  ellipse(83,68,40,40);
 
+//right outer eye
+fill(230,227,87);
+ ellipse(272,71,90,73);
+
+
  //right inner eye
  fill(0,44,242);
  ellipse(270,69,40,40);
 
+ //nose
 
+
+ 
 
 }
 
