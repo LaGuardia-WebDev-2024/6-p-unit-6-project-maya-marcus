@@ -38,6 +38,14 @@ html{
   object-fit: cover;
   border-radius: 30px;
   border: 15px double rgb(0, 0, 0);
+  background:rgb(255,254,217);
+        width:500px;
+        margin:auto;
+        border-left-style:dotted;
+        border-right-style:dotted;
+        birder-top-style:dotted;
+        border-bottom-style:dotted;
+
 }
 
 h2{
